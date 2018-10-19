@@ -1,0 +1,8 @@
+# GENERATED. DO NOT MODIFY.
+RewriteEngine on
+RewriteRule ^jenkins\.war$ /download/war/2.147/jenkins.war [R=302,L]
+RewriteRule ^bouncycastle-api\.hpi$ /pluginsbouncycastle-api/2.17/bouncycastle-api.hpi [R=302,L]
+RewriteRule ^command-launcher\.hpi$ /pluginscommand-launcher/1.2/command-launcher.hpi [R=302,L]
+RewriteRule ^jdk-tool\.hpi$ /pluginsjdk-tool/1.1/jdk-tool.hpi [R=302,L]
+RewriteRule ^localization-zh-cn\.hpi$ /pluginslocalization-zh-cn/0.0.10/localization-zh-cn.hpi [R=302,L]
+RewriteRule ^script-security\.hpi$ /pluginsscript-security/1.47/script-security.hpi [R=302,L]
