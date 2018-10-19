@@ -19,5 +19,11 @@ pipeline {
                 sh 'sh target/appassembler/bin/app -id test -www www -maxPlugins 1'
             }
         }
+
+        stage("docker") {
+            steps {
+                sh 'docker build .'
+            }
+        }
     }
 }
