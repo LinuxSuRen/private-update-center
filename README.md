@@ -12,3 +12,7 @@ plugins. And you could deploy the update center to wherever you want.
 5. Change the update center url in `http://localhost:8080/pluginManager/advanced`.
 
 Finally, you could see your faver plugins.
+
+# Sources
+
+Jenkins update center generator source code is [here](https://github.com/linuxsuren/update-center2/tree/fea/cache).
