@@ -1,8 +1,10 @@
 #!/bin/sh
 
-# go get github.com/linuxsuren/jenkins-plugin-api-client
+go get github.com/linuxsuren/jenkins-plugin-api-client
 
-# jenkins-plugin-api-client -name localization-zh-cn -out plugins.properties
+jenkins-plugin-api-client -names localization-zh-cn \
+    -names configuration-as-code-support \
+    -out plugins.properties
 
 sh appassembler/bin/app -id default -www www \
     -skip-release-history -cache plugins -whitelist plugins.properties \
