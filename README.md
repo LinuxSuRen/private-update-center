@@ -5,13 +5,13 @@ plugins. And you could deploy the update center to wherever you want.
 
 # Steps
 
-1. Create your own certificate. You can just execute `generate-ssl.sh`.
-2. Fetch plugins information then generate update.json.
-3. Build a docker image.
-4. Copy your-certificate.crt into `~/.jenkins/war/WEB-INF/update-center-rootCAs`.
+1. Create your own certificate. You can just execute `make generate-ssl`.
+2. Fetch plugins information then generate update.json. `make generate-plugins && make update-center && make generate-json`
+3. Build then run a docker image. `make build-image && make run-image`
+4. Start your Jenkins server then copy your-certificate.crt into `$JENKINS_HOME/war/WEB-INF/update-center-rootCAs/`.
 5. Change the update center url in `http://localhost:8080/pluginManager/advanced`.
 
-Finally, you could see your faver plugins.
+Finally, you could see your favour plugins.
 
 # Sources
 
