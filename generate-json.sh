@@ -4,6 +4,7 @@ go get github.com/linuxsuren/jenkins-plugin-api-client
 
 jenkins-plugin-api-client -names localization-zh-cn \
     -names configuration-as-code-support \
+    -names alauda-devops-sync \
     -out plugins.properties
 
 sh appassembler/bin/app -id default -www www \

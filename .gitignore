@@ -2,8 +2,14 @@
 .idea
 *.iml
 
+# vim
+*.swp
+
 # tmp
 plugins
 
 # update-center
 www
+update-center2/
+plugins/
+plugins.properties

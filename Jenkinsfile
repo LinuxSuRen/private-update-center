@@ -4,9 +4,9 @@ pipeline {
     }
 
     stages {
-        stage("checkout") {
+        stage("Build Update Center") {
             steps{
-                checkout([$class: 'GitSCM', branches: [[name: '*/fea/cache']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/LinuxSuRen/update-center2']]])
+                sh 'make update-center'
             }
         }
 
