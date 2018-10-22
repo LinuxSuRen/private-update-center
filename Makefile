@@ -1,4 +1,4 @@
-IMAGE_NAME=surenpi/suren
+IMAGE_NAME=surenpi/private-update-center
 CERT_KEY=suren.key
 CERT_CRT=suren.crt
 PLUGINS=plugins.properties
