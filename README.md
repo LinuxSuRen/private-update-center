@@ -16,3 +16,7 @@ Finally, you could see your favour plugins.
 # Sources
 
 Jenkins update center generator source code is [here](https://github.com/linuxsuren/update-center2/tree/fea/cache).
+
+# Kubernetes
+
+If you wish use this update center in your kubernetes environment, please take a look our [charts](https://github.com/linuxsuren/private-update-center-charts).
